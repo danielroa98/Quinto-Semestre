@@ -73,19 +73,20 @@ int main()
 {
 
   int sizeA = 10;
+	int sizeB = sizeA * 10;
   int arreglo[sizeA];
 
   srand((unsigned) time(0));
 
   cout << "El tamaño por default del arreglo es de "<< sizeA << "\n";
 
-  if (int cont = 0; cont < sizeA; cont++) {
+  for (int cont = 0; cont < sizeA; cont++) {
 
-    arreglo[cont] = (rand()%sizeA)+1;
+    arreglo[cont] = (rand()%sizeB)+1;
 
   }
 
-  int x = (rand() % 100) + 1;
+  int x = (rand() % sizeB) + 1;
 
   int tamanio = sizeof(arreglo)/sizeof(arreglo[0]);
 
