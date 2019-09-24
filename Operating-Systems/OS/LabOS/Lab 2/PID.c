@@ -2,7 +2,7 @@
  *
  *  Luis Daniel Roa : A01021960
  *
- *  Program to run Linux based terminal commands
+ *  Program to visualize process ids and their children
  *
  **************************************************************/
  #include <stdio.h>
