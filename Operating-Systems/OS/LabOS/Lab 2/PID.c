@@ -1,6 +1,6 @@
 /***********************************************************
  *
- *  Luis Daniel Roa : A01021960
+ *  <Luis Daniel Roa> : <A01021960>
  *
  *  Program to visualize process ids and their children
  *
