@@ -1,44 +1,23 @@
-/************************************************************************
- *  <Luis Daniel Roa>:<A01021960>
- *  Due date:
- *  September 17, 2019
- *  C code made to perform linux commands from within the input
- */
-
-#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
-#include <sys/signal.h>
 
-#define MAX_LENGTH 250 //maximum length of characters that can be written in the command line
+int main(int argc, char** argv) {
 
-int main(int argc, char *argv[]) {
+  char* comando[argc];
 
-  char cmd[MAX_LENGTH] = "", **p; //pounter are being declared
+  int i;
 
-  pid_t parent = getpid();
+  for (i = 1; i < argc; i++) {
 
-  printf("The parent process is: %d\n", parent);
+    comando[i-1] = argv[i];
 
-  if (argc < 2) { //if the input sintaxis isn't equivalent to two seperate sentences
-    fprintf(stderr, "\nWrong syntaxis, should be as follows:\n./program command...\n");
   }
-    else{
-      strcat(cmd, argv[1]);
 
-      for (p = &argv[2]; *p; p++) {
+  comando[argc - 1] = argv[i];
 
-        strcat(cmd, " ");
-        strcat(cmd, *p);
+  int f = execvp(argv[1], comando);
 
-      }
+  printf("%d\n", f);
 
-      printf("\nThe command is the following:\n\n");
-
-      system(cmd);
-    }
-
-    return 0;
-
+  return 0;
 }
