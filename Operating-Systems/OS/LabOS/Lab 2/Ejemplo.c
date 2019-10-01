@@ -1,11 +1,10 @@
 /***********************************************************
  *
- *  <Luis Daniel Roa> : <A01021960>
+ *  Luis Daniel Roa : A01021960
  *
  *  Program to run Linux based terminal commands
  *
  **************************************************************/
-
 #include <stdio.h>
 #include <unistd.h>
 

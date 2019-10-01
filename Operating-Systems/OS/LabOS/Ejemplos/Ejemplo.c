@@ -1,34 +1,23 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <unistd.h>
 
-#define MAX_CMM_LEN 100
+int main(int argc, char** argv) {
 
-int main(int argc, char const *argv[]) {
+  char* comando[argc];
 
-  char cmd[MAX_CMM_LEN] = "", **p;
+  int i;
 
-  if (argc < 2)
-  {
+  for (i = 1; i < argc; i++) {
 
-    fprintf(stderr, "Usage: ./program_name terminal_command...\n");
-    exit(EXIT_FAILURE);
+    comando[i-1] = argv[i];
 
   }
-  else
-  {
 
-    strcat(cmd, argv[1]);
-    for (p = &argv[2]; *p; p++) {
+  comando[argc - 1] = argv[i];
 
-      strcat(cmd, " ");
-      strcat(cmd, *p);
+  int f = execvp(argv[1], comando);
 
-    }
-
-    system(cmd);
-
-  }
+  printf("%d\n", f);
 
   return 0;
 }
