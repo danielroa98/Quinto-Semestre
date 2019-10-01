@@ -5,27 +5,24 @@
 #include <unistd.h>
 
 int main(){
-
-	pid_t parentPid = getpid();
+	int a = 1;
+	pid_t myPid = getpid();
 	pid_t newPid = fork();
-
 	//pid_t newPID = fork();
 	//pid_t pid = getpid();
 	//char s[5] = "dogs!";
 	//printf("My process id is : %d\n", pid);
-
 	if(newPid > 0){
-
-	printf("I am the parent %d of process %d", parentPid, newPid);
-
+		pid_t newPid = getpid();
+	printf("I am the process %d and my child is %d\n", myPid, newPid);
+	printf("Value of variable a in parent is %d\n", myPid, newPid);
 	}else{
-
-	parentPid = 5;
-
-	printf("I am the child of %d with process %\n", parentPid, newPid);
-
+	//parentPid = 5;
+	a = 1;
+	pid_t myPid = getpid();
+	printf("I am the process %d and my child is %d\n", myPid, newPid);
+	printf("Value of variable a in child is %d\n", a);
+	  execl("/mnt/c/Users/danie/Programacion/5to \Semestre/Sistemas \Operativos", "pid2", "Daniel", NULL);
 	}
-
 	return 0;
-
 }
