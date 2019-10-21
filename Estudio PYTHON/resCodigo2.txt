@@ -1,0 +1,17 @@
+Prim : 568 microsegundos
+
+4 <--> 5 con peso 1
+9 <--> 10 con peso 2
+14 <--> 13 con peso 2
+4 <--> 8 con peso 2
+12 <--> 9 con peso 2
+8 <--> 7 con peso 3
+8 <--> 9 con peso 3
+3 <--> 10 con peso 4
+6 <--> 13 con peso 4
+11 <--> 12 con peso 6
+10 <--> 6 con peso 6
+2 <--> 5 con peso 7
+1 <--> 4 con peso 8
+Kruskal : 1100 microsegundos
+
