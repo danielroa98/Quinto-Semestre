@@ -25,13 +25,13 @@ struct Node *newNode(int item)
 
 // Stores inoder traversal of the BST
 // in arr[]
-void storeSorted(Node *root, int arr[], int &i)
+void storeSorted(Node *root, int arreglo[], int &i)
 {
 	if (root != NULL)
 	{
-		storeSorted(root->left, arr, i);
-		arr[i++] = root->key;
-		storeSorted(root->right, arr, i);
+		storeSorted(root->left, arreglo, i);
+		arreglo[i++] = root->key;
+		storeSorted(root->right, arreglo, i);
 	}
 }
 
@@ -53,19 +53,19 @@ Node* insert(Node* node, int key)
 }
 
 // This function sorts arr[0..n-1] using Tree Sort
-void treeSort(int arr[], int n)
+void treeSort(int arreglo[], int tamanio)
 {
 	struct Node *root = NULL;
 
 	// Construct the BST
-	root = insert(root, arr[0]);
-	for (int i=1; i<n; i++)
-		insert(root, arr[i]);
+	root = insert(root, arreglo[0]);
+	for (int i=1; i<tamanio; i++)
+		insert(root, arreglo[i]);
 
 	// Store inoder traversal of the BST
 	// in arr[]
 	int i = 0;
-	storeSorted(root, arr, i);
+	storeSorted(root, arreglo, i);
 }
 
 // Driver Program to test above functions
@@ -79,13 +79,13 @@ int main()
 
   cout << "El tamaño por default del arreglo es de "<< sizeA << "\n";
 
-  if (int cont = 0; cont < sizeA; cont++) {
+  for (int cont = 0; cont < sizeA; cont++) {
 
     arreglo[cont] = (rand()%sizeA)+1;
 
   }
 
-  int x = (rand() % 100) + 1;
+  //int x = (rand() % 100) + 1;
 
   int tamanio = sizeof(arreglo)/sizeof(arreglo[0]);
 
