@@ -1,0 +1,249 @@
+Insertar vertice: 12 microsegundos
+Insertar vertice: 66 microsegundos
+Eliminar vertice: 30 microsegundos
+Eliminar edge: 5 microsegundos
+Edge:  fuente= 1 destino= 4 peso= 3
+Edge:  fuente= 1 destino= 4 peso= 8
+Edge:  fuente= 1 destino= 3 peso= 8
+Edge:  fuente= 2 destino= 5 peso= 7
+Edge:  fuente= 3 destino= 2 peso= 7
+Edge:  fuente= 3 destino= 5 peso= 8
+Edge:  fuente= 3 destino= 10 peso= 4
+Edge:  fuente= 4 destino= 7 peso= 3
+Edge:  fuente= 4 destino= 8 peso= 2
+Edge:  fuente= 4 destino= 5 peso= 1
+Edge:  fuente= 5 destino= 6 peso= 9
+Edge:  fuente= 6 destino= 13 peso= 4
+Edge:  fuente= 7 destino= 4 peso= 6
+Edge:  fuente= 8 destino= 7 peso= 3
+Edge:  fuente= 8 destino= 9 peso= 3
+Edge:  fuente= 9 destino= 10 peso= 2
+Edge:  fuente= 9 destino= 12 peso= 4
+Edge:  fuente= 10 destino= 6 peso= 6
+Edge:  fuente= 10 destino= 3 peso= 10
+Edge:  fuente= 11 destino= 12 peso= 6
+Edge:  fuente= 12 destino= 11 peso= 8
+Edge:  fuente= 12 destino= 9 peso= 2
+Edge:  fuente= 12 destino= 14 peso= 9
+Edge:  fuente= 13 destino= 14 peso= 6
+Edge:  fuente= 14 destino= 13 peso= 2
+BFS : 498 microsegundos
+
+DFS : 531 microsegundos
+
+Djkstra : 273 microsegundos
+
+Floyd warshall
+Distance matrix: 
+From vertex 2 to 2 : inf
+From vertex 2 to 3 : 15
+From vertex 2 to 4 : 8
+From vertex 2 to 5 : 3
+From vertex 2 to 6 : 4
+From vertex 2 to 7 : 13
+From vertex 2 to 8 : 6
+From vertex 2 to 9 : 5
+From vertex 2 to 10 : 8
+From vertex 2 to 11 : 10
+From vertex 2 to 12 : 20
+From vertex 2 to 13 : 12
+From vertex 2 to 14 : 17
+From vertex 2 to 15 : 21
+
+From vertex 3 to 2 : 2147483647
+From vertex 3 to 3 : inf
+From vertex 3 to 4 : 2147483647
+From vertex 3 to 5 : 2147483647
+From vertex 3 to 6 : 7
+From vertex 3 to 7 : 16
+From vertex 3 to 8 : 2147483647
+From vertex 3 to 9 : 2147483647
+From vertex 3 to 10 : 2147483647
+From vertex 3 to 11 : 2147483647
+From vertex 3 to 12 : 2147483647
+From vertex 3 to 13 : 2147483647
+From vertex 3 to 14 : 20
+From vertex 3 to 15 : 26
+
+From vertex 4 to 2 : 2147483647
+From vertex 4 to 3 : 7
+From vertex 4 to 4 : inf
+From vertex 4 to 5 : 2147483647
+From vertex 4 to 6 : 8
+From vertex 4 to 7 : 10
+From vertex 4 to 8 : 2147483647
+From vertex 4 to 9 : 2147483647
+From vertex 4 to 10 : 2147483647
+From vertex 4 to 11 : 4
+From vertex 4 to 12 : 2147483647
+From vertex 4 to 13 : 2147483647
+From vertex 4 to 14 : 14
+From vertex 4 to 15 : 20
+
+From vertex 5 to 2 : 2147483647
+From vertex 5 to 3 : 24
+From vertex 5 to 4 : 17
+From vertex 5 to 5 : inf
+From vertex 5 to 6 : 1
+From vertex 5 to 7 : 10
+From vertex 5 to 8 : 3
+From vertex 5 to 9 : 2
+From vertex 5 to 10 : 5
+From vertex 5 to 11 : 7
+From vertex 5 to 12 : 17
+From vertex 5 to 13 : 9
+From vertex 5 to 14 : 14
+From vertex 5 to 15 : 18
+
+From vertex 6 to 2 : 2147483647
+From vertex 6 to 3 : 2147483647
+From vertex 6 to 4 : 2147483647
+From vertex 6 to 5 : 2147483647
+From vertex 6 to 6 : inf
+From vertex 6 to 7 : 9
+From vertex 6 to 8 : 2147483647
+From vertex 6 to 9 : 2147483647
+From vertex 6 to 10 : 2147483647
+From vertex 6 to 11 : 2147483647
+From vertex 6 to 12 : 2147483647
+From vertex 6 to 13 : 2147483647
+From vertex 6 to 14 : 13
+From vertex 6 to 15 : 19
+
+From vertex 7 to 2 : 2147483647
+From vertex 7 to 3 : 2147483647
+From vertex 7 to 4 : 2147483647
+From vertex 7 to 5 : 2147483647
+From vertex 7 to 6 : 2147483647
+From vertex 7 to 7 : inf
+From vertex 7 to 8 : 2147483647
+From vertex 7 to 9 : 2147483647
+From vertex 7 to 10 : 2147483647
+From vertex 7 to 11 : 2147483647
+From vertex 7 to 12 : 2147483647
+From vertex 7 to 13 : 2147483647
+From vertex 7 to 14 : 4
+From vertex 7 to 15 : 10
+
+From vertex 8 to 2 : 2147483647
+From vertex 8 to 3 : 30
+From vertex 8 to 4 : 23
+From vertex 8 to 5 : 6
+From vertex 8 to 6 : 7
+From vertex 8 to 7 : 16
+From vertex 8 to 8 : inf
+From vertex 8 to 9 : 8
+From vertex 8 to 10 : 11
+From vertex 8 to 11 : 13
+From vertex 8 to 12 : 23
+From vertex 8 to 13 : 15
+From vertex 8 to 14 : 20
+From vertex 8 to 15 : 24
+
+From vertex 9 to 2 : 2147483647
+From vertex 9 to 3 : 22
+From vertex 9 to 4 : 15
+From vertex 9 to 5 : 9
+From vertex 9 to 6 : 10
+From vertex 9 to 7 : 11
+From vertex 9 to 8 : 3
+From vertex 9 to 9 : inf
+From vertex 9 to 10 : 3
+From vertex 9 to 11 : 5
+From vertex 9 to 12 : 15
+From vertex 9 to 13 : 7
+From vertex 9 to 14 : 15
+From vertex 9 to 15 : 16
+
+From vertex 10 to 2 : 2147483647
+From vertex 10 to 3 : 19
+From vertex 10 to 4 : 12
+From vertex 10 to 5 : 2147483647
+From vertex 10 to 6 : 20
+From vertex 10 to 7 : 8
+From vertex 10 to 8 : 2147483647
+From vertex 10 to 9 : 2147483647
+From vertex 10 to 10 : inf
+From vertex 10 to 11 : 2
+From vertex 10 to 12 : 12
+From vertex 10 to 13 : 4
+From vertex 10 to 14 : 12
+From vertex 10 to 15 : 13
+
+From vertex 11 to 2 : 2147483647
+From vertex 11 to 3 : 17
+From vertex 11 to 4 : 10
+From vertex 11 to 5 : 2147483647
+From vertex 11 to 6 : 18
+From vertex 11 to 7 : 6
+From vertex 11 to 8 : 2147483647
+From vertex 11 to 9 : 2147483647
+From vertex 11 to 10 : 2147483647
+From vertex 11 to 11 : inf
+From vertex 11 to 12 : 2147483647
+From vertex 11 to 13 : 2147483647
+From vertex 11 to 14 : 10
+From vertex 11 to 15 : 16
+
+From vertex 12 to 2 : 2147483647
+From vertex 12 to 3 : 27
+From vertex 12 to 4 : 20
+From vertex 12 to 5 : 2147483647
+From vertex 12 to 6 : 28
+From vertex 12 to 7 : 16
+From vertex 12 to 8 : 2147483647
+From vertex 12 to 9 : 2147483647
+From vertex 12 to 10 : 8
+From vertex 12 to 11 : 10
+From vertex 12 to 12 : inf
+From vertex 12 to 13 : 6
+From vertex 12 to 14 : 17
+From vertex 12 to 15 : 15
+
+From vertex 13 to 2 : 2147483647
+From vertex 13 to 3 : 21
+From vertex 13 to 4 : 14
+From vertex 13 to 5 : 2147483647
+From vertex 13 to 6 : 22
+From vertex 13 to 7 : 10
+From vertex 13 to 8 : 2147483647
+From vertex 13 to 9 : 2147483647
+From vertex 13 to 10 : 2
+From vertex 13 to 11 : 4
+From vertex 13 to 12 : 8
+From vertex 13 to 13 : inf
+From vertex 13 to 14 : 11
+From vertex 13 to 15 : 9
+
+From vertex 14 to 2 : 2147483647
+From vertex 14 to 3 : 2147483647
+From vertex 14 to 4 : 2147483647
+From vertex 14 to 5 : 2147483647
+From vertex 14 to 6 : 2147483647
+From vertex 14 to 7 : 2147483647
+From vertex 14 to 8 : 2147483647
+From vertex 14 to 9 : 2147483647
+From vertex 14 to 10 : 2147483647
+From vertex 14 to 11 : 2147483647
+From vertex 14 to 12 : 2147483647
+From vertex 14 to 13 : 2147483647
+From vertex 14 to 14 : inf
+From vertex 14 to 15 : 6
+
+From vertex 15 to 2 : 2147483647
+From vertex 15 to 3 : 2147483647
+From vertex 15 to 4 : 2147483647
+From vertex 15 to 5 : 2147483647
+From vertex 15 to 6 : 2147483647
+From vertex 15 to 7 : 2147483647
+From vertex 15 to 8 : 2147483647
+From vertex 15 to 9 : 2147483647
+From vertex 15 to 10 : 2147483647
+From vertex 15 to 11 : 2147483647
+From vertex 15 to 12 : 2147483647
+From vertex 15 to 13 : 2147483647
+From vertex 15 to 14 : 2
+From vertex 15 to 15 : inf
+
+Floyd warshall : 8487 microsegundos
+

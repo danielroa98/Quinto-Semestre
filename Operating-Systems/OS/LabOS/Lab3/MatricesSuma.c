@@ -1,3 +1,9 @@
+/*
+ *  Daniel Roa : A01021960
+ * 
+ *  Matrix additions
+ * 
+ */
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -29,7 +35,7 @@ void PrintMatrix(){
   for (int filas = 0; filas < M; filas++) {
 
     for (int columnas = 0; columnas < N; columnas++) {
-      printf("%d,",C[filas][columnas]);
+      printf(" %d -",C[filas][columnas]);
     }
       printf("\n");
   }

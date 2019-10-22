@@ -26,13 +26,13 @@ struct Node *newNode(int item)
 
 // Stores inoder traversal of the BST
 // in arr[]
-void storeSorted(Node *root, int arr[], int &i)
+void storeSorted(Node *root, int arreglo[], int &i)
 {
 	if (root != NULL)
 	{
-		storeSorted(root->left, arr, i);
-		arr[i++] = root->key;
-		storeSorted(root->right, arr, i);
+		storeSorted(root->left, arreglo, i);
+		arreglo[i++] = root->key;
+		storeSorted(root->right, arreglo, i);
 	}
 }
 
@@ -87,7 +87,7 @@ int main()
 
   }
 
-  int x = (rand() % 100) + 1;
+  //int x = (rand() % 100) + 1;
 
   int tamanio = sizeof(arreglo)/sizeof(arreglo[0]);
 
