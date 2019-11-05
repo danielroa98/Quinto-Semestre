@@ -74,12 +74,15 @@ int main(){
 	processCount=0;
 	//Add here your code for simulating a round robin scheduler and processor.
 
+	int timeSlice = 10;
+	printf("Time slice is: ", timeSlice);
+
 	for (size_t i = 0; i < 5; i++) {
 
-	enqueue(process_t i);	
-
+		enqueue(i, 10+1);	
+		printf("Adding process %d with running time of %d\n", i, 10+i);
 	}
 
-	dequeue();
+	//dequeue();
 
 }

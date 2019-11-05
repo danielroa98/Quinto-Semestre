@@ -1,4 +1,13 @@
 {
     "C_Cpp.errorSquiggles": "Enabled",
-    "python.pythonPath": "C:\\Users\\danie\\Anaconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\danie\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    "C_Cpp.dimInactiveRegions": false,
+    "files.associations": {
+        "type_traits": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "filesystem": "cpp",
+        "iosfwd": "cpp"
+    },
+    "git.ignoreLimitWarning": true
 }

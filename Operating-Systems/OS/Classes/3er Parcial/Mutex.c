@@ -4,7 +4,9 @@
 #include <unistd.h>
 
 int g = 0;
-pthread_mutex_t lockVariable;
+pthread_mutex_t lockVariable = PTHREAD_MUTEX_INITIALIZER;
+
+
 
 void *function(void *args){
     
