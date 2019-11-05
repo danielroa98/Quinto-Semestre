@@ -2,7 +2,6 @@
  * 	Lab 4, Threaded Round Robin Simulator
  * 	Luis Daniel Roa 			: 	A01021960
  *	Sebastian Gonzalo Vives		:	A01025211
- * 
  */
 
 #include <stdio.h>
