@@ -1,7 +1,7 @@
 /*
  * 	Lab 4, Threaded Round Robin Simulator
- * 	Luis Daniel Roa : A01021960
- *
+ * 	Luis Daniel Roa 			: 	A01021960
+ *	Sebastian Gonzalo Vives		:	A01025211
  */
 
 #include <stdio.h>
@@ -67,17 +67,24 @@ process_t dequeue(){
 	return returningValue;
 }
 
+int main()
+{
+	// seed for random generator
+	srand(time(0));
 
-int main(){
-	head=malloc(sizeof(node_t));
-	head->next=NULL;
-	processCount=0;
+	head = malloc(sizeof(node_t));
+	head->next = NULL;
+	processCount = 0;
 	//Add here your code for simulating a round robin scheduler and processor.
+	int timeSlice = 6;
+	int lower = 5, upper = 30;
+	printf("Time slice is %d\n", timeSlice);
 
-	for (size_t i = 0; i < 5; i++) {
-
-	enqueue(process_t i);	
-
+	for (int i = 0; i < 5; i++)
+	{
+		int num = (rand() % (upper - lower + 1)) + lower;
+		enqueue(i, num);
+		printf("Adding process %d with running time of %d\n", i, num);
 	}
 
 	dequeue();

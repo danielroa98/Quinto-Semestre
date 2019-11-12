@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Program Files\\boost\\boost_1_71_0",
+                "C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/MSVC/14.24.28117/include",
+                "${workspaceFolder}/Snap/snap-master/snap-core",
+                "C:\\Users\\danie\\Programacion\\5to Semestre\\tc2017-t4-otono-2019-danielroa98\\Snap-5.0",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
