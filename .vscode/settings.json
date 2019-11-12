@@ -1,5 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "Enabled",
+<<<<<<< HEAD
+    "python.pythonPath": "/usr/bin/python3"
+=======
     "python.pythonPath": "C:\\Users\\danie\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
     "C_Cpp.dimInactiveRegions": false,
     "files.associations": {
@@ -11,4 +14,5 @@
         "*.ipp": "cpp"
     },
     "git.ignoreLimitWarning": true
+>>>>>>> b3c99d01d4f052d729e07fff7f80657b6991920a
 }
