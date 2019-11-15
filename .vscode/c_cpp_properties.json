@@ -8,7 +8,10 @@
                 "C:/Program Files (x86)/Microsoft Visual Studio/2019/Preview/VC/Tools/MSVC/14.24.28117/include",
                 "${workspaceFolder}/Snap/snap-master/snap-core",
                 "C:\\Users\\danie\\Programacion\\5to Semestre\\tc2017-t4-otono-2019-danielroa98\\Snap-5.0",
-                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt"
+                "C:/OpenCV-4.1.1/opencv",
+                "C:/OpenCV-4.1.1/opencv/build/include",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17763.0/ucrt",
+                "C:/dlib/dlib-19.18"
             ],
             "defines": [
                 "_DEBUG",

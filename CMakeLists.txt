@@ -23,7 +23,7 @@ set (CMAKE_CXX_STANDARD 11)
 
 # if not, use manual specification of the OpenCVConfig.cmake path
 # and comment previous line of automatic finding
-find_package(OpenCV REQUIRED PATHS D:/OpenCV/opencv/user_build NO_DEFAULT_PATH)
+find_package(OpenCV REQUIRED PATHS C:/OpenCV-4.1.1/opencv/user_build NO_DEFAULT_PATH)
 
 
 if(OpenCV_FOUND)
@@ -31,10 +31,10 @@ if(OpenCV_FOUND)
 endif()
 
 
-set(fr_include 	D:/OpenCV/opencv/user_build/install/include
+set(fr_include 	C:/OpenCV-4.1.1/opencv/user_build/install/include
 	)
 
-set(fr_libraries 	D:/OpenCV/opencv/user_build/install/x86/vc15/lib D:/OpenCV/opencv/user_build/lib/Release
+set(fr_libraries 	C:/OpenCV-4.1.1/opencv/user_build/install/x86/vc15/lib D:/OpenCV/opencv/user_build/lib/Release
 	)
 
 
