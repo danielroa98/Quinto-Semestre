@@ -17,26 +17,26 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>10</y>
-     <width>41</width>
-     <height>16</height>
+     <y>16</y>
+     <width>51</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>radio:</string>
+    <string>Radio:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
      <x>110</x>
-     <y>10</y>
-     <width>51</width>
-     <height>16</height>
+     <y>16</y>
+     <width>61</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>ángulo:</string>
+    <string>Ángulo:</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="boxRadio">
@@ -45,7 +45,7 @@
      <x>60</x>
      <y>10</y>
      <width>41</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -55,7 +55,7 @@
      <x>160</x>
      <y>10</y>
      <width>41</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -66,7 +66,7 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>40</y>
+     <y>50</y>
      <width>113</width>
      <height>32</height>
     </rect>
@@ -92,9 +92,9 @@
    <property name="geometry">
     <rect>
      <x>260</x>
-     <y>10</y>
+     <y>6</y>
      <width>41</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -115,9 +115,9 @@
    <property name="geometry">
     <rect>
      <x>340</x>
-     <y>10</y>
+     <y>6</y>
      <width>41</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -125,7 +125,7 @@
    <property name="geometry">
     <rect>
      <x>260</x>
-     <y>40</y>
+     <y>50</y>
      <width>113</width>
      <height>32</height>
     </rect>
@@ -138,7 +138,7 @@
    <property name="geometry">
     <rect>
      <x>432</x>
-     <y>40</y>
+     <y>50</y>
      <width>101</width>
      <height>32</height>
     </rect>
@@ -157,7 +157,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Zoom in</string>
+    <string>+</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_5">
@@ -170,7 +170,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Zoom out</string>
+    <string>-</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_6">
@@ -203,9 +203,9 @@
    <property name="geometry">
     <rect>
      <x>490</x>
-     <y>10</y>
+     <y>6</y>
      <width>41</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
@@ -220,6 +220,24 @@
    </property>
    <property name="text">
     <string>grados:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>550</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Impresión de los arcos</string>
    </property>
   </widget>
  </widget>

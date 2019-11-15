@@ -5,7 +5,7 @@ Transformaciones::Transformaciones()
 
 }
 
-void Transformaciones::dibujar(bool & dibuja, QVector<QTransform> & vecTrans, double & xCentro, double & yCentro)
+void Transformaciones::crearFig(bool & dibuja, QVector<QTransform> & vecTrans, double & xCentro, double & yCentro)
 {
     dibuja=!dibuja;
     vecTrans.clear();

@@ -79,7 +79,7 @@ void Cubo::paintEvent(QPaintEvent *e)
 
 void Cubo::on_pushButton_clicked()
 {
-    trans.dibujar(dibuja,vecTrans,xCentro,yCentro);
+    trans.crearFig(dibuja,vecTrans,xCentro,yCentro);
 
     update();
 

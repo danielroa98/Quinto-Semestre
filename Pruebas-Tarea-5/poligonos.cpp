@@ -72,7 +72,7 @@ void Poligonos::paintEvent(QPaintEvent *e)
 
 void Poligonos::on_pushButton_clicked()
 {
-    trans.dibujar(dibuja,vecTrans,xCentro,yCentro);
+    trans.crearFig(dibuja,vecTrans,xCentro,yCentro);
 
     update();
 

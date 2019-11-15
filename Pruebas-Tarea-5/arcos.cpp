@@ -105,7 +105,7 @@ void Arcos::paintEvent(QPaintEvent *e)
 
 void Arcos::on_pushButton_clicked()
 {
-    trans.dibujar(dibuja,vecTrans,xCentro,yCentro);
+    trans.crearFig(dibuja,vecTrans,xCentro,yCentro);
 
     update();
 

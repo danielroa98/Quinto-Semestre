@@ -9,7 +9,7 @@ class Transformaciones
 {
 public:
     Transformaciones();
-    void dibujar(bool & dibuja, QVector<QTransform> & vecTrans, double & xCentro, double & yCentro);
+    void crearFig(bool & dibuja, QVector<QTransform> & vecTrans, double & xCentro, double & yCentro);
     void trasladar(QString & xStr, QString & yStr, QVector<QTransform> & vecTrans);
     void rotar(QString & gradosStr, QVector<QTransform> & vecTrans);
     void zoomOut(QVector<QTransform> & vecTrans);
