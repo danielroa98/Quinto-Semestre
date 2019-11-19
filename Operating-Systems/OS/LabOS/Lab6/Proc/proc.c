@@ -32,6 +32,7 @@ void proc_exit(void)
 ssize_t proc_read(struct file *file, char __user *usr_buf, size_t count, loff_t *pos)
 {
 	int rv = 0;
+	int imprHZ = 0;
 	char buffer[BUFFER_SIZE];
 	static int completed = 0;
 	if (completed) {
@@ -42,6 +43,7 @@ ssize_t proc_read(struct file *file, char __user *usr_buf, size_t count, loff_t 
 	completed = 1;
 
 	rv = sprintf(buffer, "Hello world\n");
+	imprHZ = sprintf(buffer, KERN_INFO "The HZ value is %ul\n", HZ);
 	/* copies kernel space buffer to user space usr_buf */
 	copy_to_user(usr_buf, buffer, rv);
 	return rv;
