@@ -65,7 +65,7 @@ public:
         label_2->setFont(font);
         label_3 = new QLabel(Dialog);
         label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setGeometry(QRect(240, 40, 131, 21));
+        label_3->setGeometry(QRect(250, 40, 131, 21));
         QFont font1;
         font1.setPointSize(12);
         label_3->setFont(font1);
